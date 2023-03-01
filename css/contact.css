@@ -37,7 +37,7 @@ h3 {
 
 form {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 label {
@@ -51,7 +51,7 @@ select,
 textarea {
   display: block;
   width: 100%;
-  padding: 1vw;
+  padding: 5vw;
   border: 1px solid #c12929;
   border-radius: 4px;
   margin-bottom: 10px;
