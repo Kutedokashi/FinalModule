@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <li><a href="../html/aboutme.html">About Me</a></li>
+        <li><a href="../index.html">Homepage</a></li>
+        <li><a href="../html/alittlemore.html">A Little More</a></li>
+      </nav>
+    </header>
+    <h3>With this form you can easily contact me</h3>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="correo@correo.com"/>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" />
+
+      <label for="country">Country:</label>
+      <select name="country" id="country">
+        <option value="Colombia">Colombia</option>
+        <option value="ee.uu">EE.UU</option>
+        <option value="mexico">Mexico</option>
+        <option value="argentina">Argentina</option>
+      </select>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" />
+
+      <label>Why are you contacting me?:</label>
+      <input type="checkbox" name="consultation" value="yes" id="consultation"/>
+      <label for="consultation">Consultation</label>
+      <input type="checkbox" name="suggestion" value="yes" id="suggestion"/>
+      <label for="suggestion">Suggestion</label>
+      <input type="checkbox" name="complaint" value="yes" id="complaint"/>
+      <label for="complaint">Complaint</label>
+      <input type="checkbox" name="other" value="yes" id="other"/>
+      <label for="other">Other</label>
+
+      <label for="Observations">Observations:</label>
+      <textarea id="Observations" name="Observations"></textarea>
+
+      <button type="submit">Send</button>
+      <a
+        href="mailto:eetgrisales@gmail.com?subject=Asunto del correo&body=Cuerpo del correo"
+        >Enviar correo</a
+      >
+    </form>
+  </body>
+</html>
