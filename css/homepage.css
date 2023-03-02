@@ -96,6 +96,11 @@ nav li a:hover {
   flex-direction: column;
   align-items: center;
 }
+#videohtml, #videocss {
+  border: solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
 
 #crm-project,
 #expenses,
