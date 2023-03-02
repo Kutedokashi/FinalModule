@@ -48,7 +48,8 @@
 .image {
   display: block;
   margin: 30px auto;
-  width: 220px;
+  width: 200px;
+  height: 350px;
 }
 
 .icons {
