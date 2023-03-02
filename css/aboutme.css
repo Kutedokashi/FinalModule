@@ -38,14 +38,24 @@
   line-height: 1.5;
 }
 
+.content p {
+  display: flex;
+  border: 3px solid;
+  padding: 12px;
+  border-radius: 4px;
+}
+
 .image {
   display: block;
   margin: 30px auto;
-  max-width: 100%;
+  width: 220px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .icon {
-  display: block;
-  margin: 30px auto;
-  max-width: 50px;
+  width: 60px;
 }
